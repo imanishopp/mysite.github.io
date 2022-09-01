@@ -1,0 +1,92 @@
+html{
+    touch-action: manipulation;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #c6c4c0;
+
+}
+
+
+form #display{
+    font-size: 16px;
+    width: 18rem;
+    padding: 5px;
+    margin-left: 10px;
+    height: 3rem;
+    outline: 0;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+input[type='button']{
+    color: #000;
+    width: 4rem;
+    height: 2.7rem;
+    border: none;
+    margin: 10px 5px;
+    border-radius: 64px;
+    background: linear-gradient(145deg, #ffffff, #e0dddd);
+    box-shadow:  5px 5px 10px rgba(255, 255, 255, 0.1),
+             -5px 5px 10px #c7c1c1;
+
+    font-size: 1.3rem;
+    font-weight: 500;         
+}     
+
+form #equall{
+    color: #000;
+    width: 8.8rem;
+    background: linear-gradient(145deg, #03fc07aa, #41fc03b4);
+    box-shadow:  7px 7px 9px #d4d0d0,
+             -7px -7px 9px #ffffff;
+}
+
+#container{
+    padding: 13px;
+    height: 24.1rem;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #ffffff, #e0dedd);
+    box-shadow:  5px 5px 30px #acaaa9,
+                 -5px -5px 30px #ffffff;
+                 position: relative;
+}
+
+#miniD{
+    color: #000;
+    outline: none;
+    position: absolute;
+    top: 2.6rem;
+    right: 1.8rem;
+    font-size: 11px;
+    background-color: transparent;
+    border: none;
+}
+
+#copy{
+    position: absolute;
+    right: 1.8rem;
+    top: 1rem;
+    background-color: transparent;
+    border: none;
+    color:  #797574;
+    font-size: 1rem;
+}
+
+form #ac{
+    color: #000;
+    background: linear-gradient(145deg, #fc8803d7, #fcba03);
+}
